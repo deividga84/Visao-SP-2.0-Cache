@@ -1,6 +1,6 @@
 # Estrutura do cache do jogo
 
-Esta pasta reproduz **somente a estrutura de diretórios** encontrada no `cache.zip` usado pela instalação inicial. Os arquivos binários, os dados do jogo e os logs não foram enviados para este repositório; cada diretório é mantido no Git por um `.gitkeep`, e a relação completa de caminhos e tamanhos está em [`CACHE_STRUCTURE.md`](CACHE_STRUCTURE.md).
+Esta pasta reproduz **somente a estrutura de diretórios** encontrada no `cache.zip` usado pela instalação inicial. Os arquivos binários, os dados do jogo e os logs não foram enviados para este repositório, com exceção de `texdb/player/`, que foi substituída pelos quatro arquivos fornecidos no `player.zip`; os demais diretórios são mantidos no Git por um `.gitkeep`, e a relação completa de caminhos e tamanhos está em [`CACHE_STRUCTURE.md`](CACHE_STRUCTURE.md).
 
 ## Origem identificada no código
 

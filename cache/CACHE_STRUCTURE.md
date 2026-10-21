@@ -281,15 +281,12 @@ A listagem abaixo reproduz os caminhos gravados no ZIP, sem incluir o conteúdo 
 - `texdb/mobile/New Folder/mobile.pvr.dat` — 8,712,314 bytes
 - `texdb/mobile/New Folder/mobile.pvr.tmb` — 3,940 bytes
 - `texdb/mobile/New Folder/mobile.pvr.toc` — 792 bytes
+- `texdb/player.img` — 16,412,672 bytes
 - `texdb/player/`
-- `texdb/player/player.dxt.dat` — 6,569,414 bytes
-- `texdb/player/player.dxt.tmb` — 6,940 bytes
-- `texdb/player/player.dxt.toc` — 1,580 bytes
 - `texdb/player/player.pvr.dat` — 6,569,414 bytes
 - `texdb/player/player.pvr.tmb` — 6,940 bytes
 - `texdb/player/player.pvr.toc` — 1,580 bytes
 - `texdb/player/player.txt` — 27,810 bytes
-- `texdb/player.img` — 16,412,672 bytes
 - `texdb/playerhi/`
 - `texdb/playerhi/playerhi.dxt.dat` — 27,658,902 bytes
 - `texdb/playerhi/playerhi.dxt.tmb` — 6,940 bytes
