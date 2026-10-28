@@ -1,29 +1,10 @@
-# Estrutura do cache do jogo
+# Estrutura de cache do VISAO-SP
 
-Esta pasta reproduz **somente a estrutura de diretórios** encontrada no `cache.zip` usado pela instalação inicial. Os arquivos binários, os dados do jogo e os logs não foram enviados para este repositório, com exceção de `texdb/player/`, que foi substituída pelos quatro arquivos fornecidos no `player.zip`; os demais diretórios são mantidos no Git por um `.gitkeep`, e a relação completa de caminhos e tamanhos está em [`CACHE_STRUCTURE.md`](CACHE_STRUCTURE.md).
+Esta pasta foi reconstruída a partir da árvore do repositório [deividga84/VISAO-SP](https://github.com/deividga84/VISAO-SP), branch `main`. O repositório de origem possui duas variantes de cache:
 
-## Origem identificada no código
+- `data-full/files/`: estrutura completa;
+- `data-lite/files/`: estrutura lite/otimizada.
 
-- Download inicial do cache: <https://drive.usercontent.google.com/download?id=1nrwaHgLplRAk7X72yrERlH8qyRPnvGok&export=download&confirm=t>
-- Atualizações posteriores: <https://pride-russia-game.ru/data/update.zip>
-- Caminho de instalação no Android: `/storage/emulated/0/Android/data/com.nexion.online/files/`
+A lista completa dos caminhos está em [`CACHE_STRUCTURE.md`](CACHE_STRUCTURE.md). Os arquivos de jogo da origem não foram copiados; os diretórios são representados por `.gitkeep` para preservar a árvore no GitHub. Os quatro arquivos `player.*` que haviam sido fornecidos anteriormente foram preservados dentro de `texdb/player/` nas duas variantes.
 
-O launcher grava temporariamente o download inicial como `cache.zip`, extrai o conteúdo na raiz acima e depois remove o ZIP. A pasta `downloand/` mantém essa grafia porque é exatamente o nome exigido pelo código do launcher. A pasta `texdb/` concentra a maior parte dos dados descompactados do cache.
-
-## Pastas de primeiro nível
-
-```text
-SAMP/
-Text/
-Textures/
-anim/
-audio/
-data/
-downloand/
-fonts/
-logs/
-models/
-texdb/
-```
-
-Este repositório é um mapa estrutural, não uma distribuição do cache do jogo.
+A estrutura de origem também contém arquivos auxiliares em `download/`, `launcher-api/` e `atualização/`; eles não foram incluídos nesta pasta porque não fazem parte da árvore de arquivos do cache.

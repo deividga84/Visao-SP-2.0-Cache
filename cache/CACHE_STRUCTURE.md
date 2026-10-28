@@ -1,671 +1,807 @@
-# Estrutura do cache
+# Estrutura de cache clonada do VISAO-SP
 
-- Arquivo analisado: `cache.zip`
-- Entradas no ZIP: **648**
-- Arquivos: **603**
-- Diretórios: **45**
-- Tamanho descompactado declarado: **3,074,359,400 bytes**
+- Repositório de origem: https://github.com/deividga84/VISAO-SP
+- Branch de origem: `main`
+- Variantes: `data-full/files` (335 arquivos) e `data-lite/files` (384 arquivos)
+- Diretórios representados: **72**
+- Arquivos representados no mapa: **719**
 
-## Diretórios de primeiro nível
+Este repositório reproduz a estrutura de caminhos do cache. Os arquivos de jogo da origem não foram copiados; os diretórios sem conteúdo são mantidos por `.gitkeep`. Os quatro arquivos `player.*` fornecidos anteriormente foram preservados nas duas variantes, em `texdb/player/`.
 
-- `SAMP/`
-- `Text/`
-- `Textures/`
-- `anim/`
-- `audio/`
-- `data/`
-- `downloand/`
-- `fonts/`
-- `logs/`
-- `models/`
-- `texdb/`
+## Caminhos
 
-## Arquivos e diretórios
+### `data-full/files`
 
-A listagem abaixo reproduz os caminhos gravados no ZIP, sem incluir o conteúdo dos arquivos.
+- `data-full/files/`
+- `data-full/files/SAMP/`
+- `data-full/files/SAMP/SAMP.ide`
+- `data-full/files/SAMP/TIMECYC.DAT`
+- `data-full/files/SAMP/WEAPON.dat`
+- `data-full/files/SAMP/gta.dat`
+- `data-full/files/SAMP/handling.cfg`
+- `data-full/files/SAMP/main.scm`
+- `data-full/files/SAMP/peds.ide`
+- `data-full/files/SAMP/script.img`
+- `data-full/files/SAMP/settings.json`
+- `data-full/files/SAMP/tracks2.dat`
+- `data-full/files/SAMP/tracks4.dat`
+- `data-full/files/SAMP/vehicles.ide`
+- `data-full/files/anim/`
+- `data-full/files/anim/anim.img`
+- `data-full/files/anim/cuts.img`
+- `data-full/files/anim/ped.ifp`
+- `data-full/files/audio/`
+- `data-full/files/audio/CONFIG/`
+- `data-full/files/audio/CONFIG/AudioEventHistory.txt`
+- `data-full/files/audio/CONFIG/BankLkup.dat`
+- `data-full/files/audio/CONFIG/BankSlot.dat`
+- `data-full/files/audio/CONFIG/EventVol.dat`
+- `data-full/files/audio/CONFIG/PakFiles.dat`
+- `data-full/files/audio/CONFIG/SOUNDINF.DAT`
+- `data-full/files/audio/CONFIG/StrmPaks.dat`
+- `data-full/files/audio/CONFIG/TRKHEAD.DAT`
+- `data-full/files/audio/CONFIG/TrakLkup.dat`
+- `data-full/files/audio/SFX/`
+- `data-full/files/audio/SFX/FEET.osw`
+- `data-full/files/audio/SFX/FEET.osw.idx`
+- `data-full/files/audio/SFX/GENRL.osw`
+- `data-full/files/audio/SFX/GENRL.osw.idx`
+- `data-full/files/audio/SFX/PAIN_A.osw`
+- `data-full/files/audio/SFX/PAIN_A.osw.idx`
+- `data-full/files/audio/STREAMS/`
+- `data-full/files/audio/STREAMS/AA.osw`
+- `data-full/files/audio/STREAMS/AA.osw.idx`
+- `data-full/files/audio/STREAMS/ADVERTS.osw`
+- `data-full/files/audio/STREAMS/ADVERTS.osw.idx`
+- `data-full/files/audio/STREAMS/AMBIENCE.osw`
+- `data-full/files/audio/STREAMS/AMBIENCE.osw.idx`
+- `data-full/files/audio/STREAMS/BEATS.osw`
+- `data-full/files/audio/STREAMS/BEATS.osw.idx`
+- `data-full/files/audio/STREAMS/CH.osw`
+- `data-full/files/audio/STREAMS/CH.osw.idx`
+- `data-full/files/audio/STREAMS/CO.osw`
+- `data-full/files/audio/STREAMS/CO.osw.idx`
+- `data-full/files/audio/STREAMS/CR.osw`
+- `data-full/files/audio/STREAMS/CR.osw.idx`
+- `data-full/files/audio/STREAMS/CUTSCENE.osw`
+- `data-full/files/audio/STREAMS/CUTSCENE.osw.idx`
+- `data-full/files/audio/STREAMS/DS.osw`
+- `data-full/files/audio/STREAMS/DS.osw.idx`
+- `data-full/files/audio/STREAMS/HC.osw`
+- `data-full/files/audio/STREAMS/HC.osw.idx`
+- `data-full/files/audio/STREAMS/MH.osw`
+- `data-full/files/audio/STREAMS/MH.osw.idx`
+- `data-full/files/audio/STREAMS/MR.osw`
+- `data-full/files/audio/STREAMS/MR.osw.idx`
+- `data-full/files/audio/STREAMS/NJ.osw`
+- `data-full/files/audio/STREAMS/NJ.osw.idx`
+- `data-full/files/audio/STREAMS/RE.osw`
+- `data-full/files/audio/STREAMS/RE.osw.idx`
+- `data-full/files/audio/STREAMS/RG.osw`
+- `data-full/files/audio/STREAMS/RG.osw.idx`
+- `data-full/files/audio/STREAMS/TK.osw`
+- `data-full/files/audio/STREAMS/TK.osw.idx`
+- `data-full/files/data/`
+- `data-full/files/data/360Default1280x720.cfg`
+- `data-full/files/data/360Default960x720.cfg`
+- `data-full/files/data/Decision/`
+- `data-full/files/data/Decision/Allowed/`
+- `data-full/files/data/Decision/Allowed/Cop.ped`
+- `data-full/files/data/Decision/Allowed/Fireman.ped`
+- `data-full/files/data/Decision/Allowed/GangMbr.ped`
+- `data-full/files/data/Decision/Allowed/Indoors.ped`
+- `data-full/files/data/Decision/Allowed/MISSION.grp`
+- `data-full/files/data/Decision/Allowed/RANDOM.grp`
+- `data-full/files/data/Decision/Allowed/RANDOM.ped`
+- `data-full/files/data/Decision/Allowed/RANDOM2.grp`
+- `data-full/files/data/Decision/Allowed/R_Norm.ped`
+- `data-full/files/data/Decision/Allowed/R_Tough.ped`
+- `data-full/files/data/Decision/Allowed/R_Weak.ped`
+- `data-full/files/data/Decision/Allowed/m_empty.ped`
+- `data-full/files/data/Decision/Allowed/m_norm.ped`
+- `data-full/files/data/Decision/Allowed/m_plyr.ped`
+- `data-full/files/data/Decision/Allowed/m_steal.ped`
+- `data-full/files/data/Decision/Allowed/m_tough.ped`
+- `data-full/files/data/Decision/Allowed/m_weak.ped`
+- `data-full/files/data/Decision/PedEvent.txt`
+- `data-full/files/data/ShopUVs.dat`
+- `data-full/files/data/TouchDefaultPhone3x2.cfg`
+- `data-full/files/data/TouchDefaultPhoneWidescreen.cfg`
+- `data-full/files/data/TouchDefaultTablet4x3.cfg`
+- `data-full/files/data/TouchDefaultTabletWidescreen.cfg`
+- `data-full/files/data/animgrp.dat`
+- `data-full/files/data/ar_stats.dat`
+- `data-full/files/data/carcols.dat`
+- `data-full/files/data/cargrp.dat`
+- `data-full/files/data/carmods.dat`
+- `data-full/files/data/clothes.dat`
+- `data-full/files/data/colorcycle.dat`
+- `data-full/files/data/default.dat`
+- `data-full/files/data/default.ide`
+- `data-full/files/data/fonts.dat`
+- `data-full/files/data/furnitur.dat`
+- `data-full/files/data/gridref.dat`
+- `data-full/files/data/gta.dat`
+- `data-full/files/data/handling.cfg`
+- `data-full/files/data/hud_controls/`
+- `data-full/files/data/hud_controls/analog_invisible.png`
+- `data-full/files/data/hud_controls/enter_vehicle.png`
+- `data-full/files/data/hud_controls/punch_fist.png`
+- `data-full/files/data/hud_controls/run_arrow_character.png`
+- `data-full/files/data/hud_controls/voip_microphone.png`
+- `data-full/files/data/info.zon`
+- `data-full/files/data/map.zon`
+- `data-full/files/data/maps/`
+- `data-full/files/data/maps/Audiozon.ipl`
+- `data-full/files/data/maps/LA/`
+- `data-full/files/data/maps/LA/LAe.ide`
+- `data-full/files/data/maps/LA/LAe.ipl`
+- `data-full/files/data/maps/LA/LAe2.ide`
+- `data-full/files/data/maps/LA/LAe2.ipl`
+- `data-full/files/data/maps/LA/LAhills.ide`
+- `data-full/files/data/maps/LA/LAhills.ipl`
+- `data-full/files/data/maps/LA/LAn.ide`
+- `data-full/files/data/maps/LA/LAn.ipl`
+- `data-full/files/data/maps/LA/LAn2.ide`
+- `data-full/files/data/maps/LA/LAn2.ipl`
+- `data-full/files/data/maps/LA/LAs.ide`
+- `data-full/files/data/maps/LA/LAs.ipl`
+- `data-full/files/data/maps/LA/LAs2.ide`
+- `data-full/files/data/maps/LA/LAs2.ipl`
+- `data-full/files/data/maps/LA/LAw.ide`
+- `data-full/files/data/maps/LA/LAw.ipl`
+- `data-full/files/data/maps/LA/LAw2.ide`
+- `data-full/files/data/maps/LA/LAw2.ipl`
+- `data-full/files/data/maps/LA/LAxref.ide`
+- `data-full/files/data/maps/LA/LaWn.ide`
+- `data-full/files/data/maps/LA/LaWn.ipl`
+- `data-full/files/data/maps/SF/`
+- `data-full/files/data/maps/SF/SFSe.ide`
+- `data-full/files/data/maps/SF/SFSe.ipl`
+- `data-full/files/data/maps/SF/SFe.ide`
+- `data-full/files/data/maps/SF/SFe.ipl`
+- `data-full/files/data/maps/SF/SFn.ide`
+- `data-full/files/data/maps/SF/SFn.ipl`
+- `data-full/files/data/maps/SF/SFs.ide`
+- `data-full/files/data/maps/SF/SFs.ipl`
+- `data-full/files/data/maps/SF/SFw.ide`
+- `data-full/files/data/maps/SF/SFw.ipl`
+- `data-full/files/data/maps/SF/SFxref.ide`
+- `data-full/files/data/maps/country/`
+- `data-full/files/data/maps/country/countn2.ide`
+- `data-full/files/data/maps/country/countn2.ipl`
+- `data-full/files/data/maps/country/countryN.ide`
+- `data-full/files/data/maps/country/countryN.ipl`
+- `data-full/files/data/maps/country/countryS.ide`
+- `data-full/files/data/maps/country/countryS.ipl`
+- `data-full/files/data/maps/country/countryW.ide`
+- `data-full/files/data/maps/country/countrye.ide`
+- `data-full/files/data/maps/country/countrye.ipl`
+- `data-full/files/data/maps/country/countryw.ipl`
+- `data-full/files/data/maps/country/counxref.ide`
+- `data-full/files/data/maps/cull.ipl`
+- `data-full/files/data/maps/generic/`
+- `data-full/files/data/maps/generic/barriers.ide`
+- `data-full/files/data/maps/generic/dynamic.ide`
+- `data-full/files/data/maps/generic/dynamic2.ide`
+- `data-full/files/data/maps/generic/multiobj.ide`
+- `data-full/files/data/maps/generic/procobj.ide`
+- `data-full/files/data/maps/generic/vegepart.ide`
+- `data-full/files/data/maps/interior/`
+- `data-full/files/data/maps/interior/gen_int1.ide`
+- `data-full/files/data/maps/interior/gen_int1.ipl`
+- `data-full/files/data/maps/interior/gen_int2.ide`
+- `data-full/files/data/maps/interior/gen_int2.ipl`
+- `data-full/files/data/maps/interior/gen_int3.ide`
+- `data-full/files/data/maps/interior/gen_int3.ipl`
+- `data-full/files/data/maps/interior/gen_int4.ide`
+- `data-full/files/data/maps/interior/gen_int4.ipl`
+- `data-full/files/data/maps/interior/gen_int5.ide`
+- `data-full/files/data/maps/interior/gen_int5.ipl`
+- `data-full/files/data/maps/interior/gen_intb.ide`
+- `data-full/files/data/maps/interior/gen_intb.ipl`
+- `data-full/files/data/maps/interior/int_LA.ide`
+- `data-full/files/data/maps/interior/int_LA.ipl`
+- `data-full/files/data/maps/interior/int_SF.ide`
+- `data-full/files/data/maps/interior/int_SF.ipl`
+- `data-full/files/data/maps/interior/int_cont.ide`
+- `data-full/files/data/maps/interior/int_cont.ipl`
+- `data-full/files/data/maps/interior/int_veg.ide`
+- `data-full/files/data/maps/interior/int_veg.ipl`
+- `data-full/files/data/maps/interior/propext.ide`
+- `data-full/files/data/maps/interior/props.ide`
+- `data-full/files/data/maps/interior/props2.ide`
+- `data-full/files/data/maps/interior/savehous.ide`
+- `data-full/files/data/maps/interior/savehous.ipl`
+- `data-full/files/data/maps/interior/stadint.ide`
+- `data-full/files/data/maps/interior/stadint.ipl`
+- `data-full/files/data/maps/leveldes/`
+- `data-full/files/data/maps/leveldes/leveldes.ide`
+- `data-full/files/data/maps/leveldes/leveldes.ipl`
+- `data-full/files/data/maps/leveldes/levelmap.ide`
+- `data-full/files/data/maps/leveldes/levelmap.ipl`
+- `data-full/files/data/maps/leveldes/levelxre.ide`
+- `data-full/files/data/maps/leveldes/seabed.ide`
+- `data-full/files/data/maps/leveldes/seabed.ipl`
+- `data-full/files/data/maps/occlu.ipl`
+- `data-full/files/data/maps/occluLA.ipl`
+- `data-full/files/data/maps/occluint.ipl`
+- `data-full/files/data/maps/occlusf.ipl`
+- `data-full/files/data/maps/occluveg.ipl`
+- `data-full/files/data/maps/paths.ipl`
+- `data-full/files/data/maps/paths2.ipl`
+- `data-full/files/data/maps/paths3.ipl`
+- `data-full/files/data/maps/paths4.ipl`
+- `data-full/files/data/maps/paths5.ipl`
+- `data-full/files/data/maps/tunnels.ipl`
+- `data-full/files/data/maps/vegas/`
+- `data-full/files/data/maps/vegas/VegasN.ide`
+- `data-full/files/data/maps/vegas/VegasS.ide`
+- `data-full/files/data/maps/vegas/VegasW.ide`
+- `data-full/files/data/maps/vegas/vegasE.ide`
+- `data-full/files/data/maps/vegas/vegasE.ipl`
+- `data-full/files/data/maps/vegas/vegasN.ipl`
+- `data-full/files/data/maps/vegas/vegasS.ipl`
+- `data-full/files/data/maps/vegas/vegasW.ipl`
+- `data-full/files/data/maps/vegas/vegaxref.ide`
+- `data-full/files/data/maps/vegas/vegaxref.ipl`
+- `data-full/files/data/maps/veh_mods/`
+- `data-full/files/data/maps/veh_mods/veh_mods.ide`
+- `data-full/files/data/melee.dat`
+- `data-full/files/data/object.dat`
+- `data-full/files/data/paths/`
+- `data-full/files/data/paths/ROADBLOX.DAT`
+- `data-full/files/data/paths/carrec.img`
+- `data-full/files/data/paths/tracks.dat`
+- `data-full/files/data/paths/tracks2.dat`
+- `data-full/files/data/paths/tracks3.dat`
+- `data-full/files/data/paths/tracks4.dat`
+- `data-full/files/data/ped.dat`
+- `data-full/files/data/pedgrp.dat`
+- `data-full/files/data/peds.ide`
+- `data-full/files/data/pedstats.dat`
+- `data-full/files/data/plants.dat`
+- `data-full/files/data/popcycle.dat`
+- `data-full/files/data/procobj.dat`
+- `data-full/files/data/script/`
+- `data-full/files/data/script/mainV1.scm`
+- `data-full/files/data/script/scriptv1.img`
+- `data-full/files/data/shopping.dat`
+- `data-full/files/data/statdisp.dat`
+- `data-full/files/data/surface.dat`
+- `data-full/files/data/surfaud.dat`
+- `data-full/files/data/surfinfo.dat`
+- `data-full/files/data/timecyc.dat`
+- `data-full/files/data/txdcut.ide`
+- `data-full/files/data/vehicles.ide`
+- `data-full/files/data/water.dat`
+- `data-full/files/data/water1.dat`
+- `data-full/files/data/weapon.dat`
+- `data-full/files/fonts/`
+- `data-full/files/fonts/arial.ttf`
+- `data-full/files/fonts/arial_bold.ttf`
+- `data-full/files/fonts/georgia.ttf`
+- `data-full/files/fonts/impact.ttf`
+- `data-full/files/fonts/palatino_linotype.ttf`
+- `data-full/files/fonts/quartz_ms.ttf`
+- `data-full/files/fonts/segoe_print.ttf`
+- `data-full/files/fonts/segoe_script.ttf`
+- `data-full/files/fonts/tahoma.ttf`
+- `data-full/files/fonts/webdings.ttf`
+- `data-full/files/fonts/wingding.ttf`
+- `data-full/files/models/`
+- `data-full/files/models/MINFO.BIN`
+- `data-full/files/models/coll/`
+- `data-full/files/models/coll/peds.col`
+- `data-full/files/models/coll/vehicles.col`
+- `data-full/files/models/coll/weapons.col`
+- `data-full/files/models/effects.fxp`
+- `data-full/files/stream.ini`
+- `data-full/files/texdb/`
+- `data-full/files/texdb/SAMPCOL.img`
+- `data-full/files/texdb/gta3.img`
+- `data-full/files/texdb/gta3/`
+- `data-full/files/texdb/gta3/gta3.dxt.dat`
+- `data-full/files/texdb/gta3/gta3.dxt.tmb`
+- `data-full/files/texdb/gta3/gta3.dxt.toc`
+- `data-full/files/texdb/gta3/gta3.etc.dat`
+- `data-full/files/texdb/gta3/gta3.etc.tmb`
+- `data-full/files/texdb/gta3/gta3.etc.toc`
+- `data-full/files/texdb/gta3/gta3.pvr.dat`
+- `data-full/files/texdb/gta3/gta3.pvr.tmb`
+- `data-full/files/texdb/gta3/gta3.pvr.toc`
+- `data-full/files/texdb/gta3/gta3.renomear.dat`
+- `data-full/files/texdb/gta3/gta3.renomear.tmb`
+- `data-full/files/texdb/gta3/gta3.renomear.toc`
+- `data-full/files/texdb/gta3/gta3.txt`
+- `data-full/files/texdb/gta3/gta3.unc.tmb`
+- `data-full/files/texdb/gta_int.img`
+- `data-full/files/texdb/gta_int/`
+- `data-full/files/texdb/gta_int/gta_int.renomear.dat`
+- `data-full/files/texdb/gta_int/gta_int.renomear.tmb`
+- `data-full/files/texdb/gta_int/gta_int.renomear.toc`
+- `data-full/files/texdb/gta_int/gta_int.txt`
+- `data-full/files/texdb/gta_int/gta_int.unc.tmb`
+- `data-full/files/texdb/menu/`
+- `data-full/files/texdb/menu/menu.dxt.dat`
+- `data-full/files/texdb/menu/menu.dxt.tmb`
+- `data-full/files/texdb/menu/menu.dxt.toc`
+- `data-full/files/texdb/menu/menu.etc.dat`
+- `data-full/files/texdb/menu/menu.etc.tmb`
+- `data-full/files/texdb/menu/menu.etc.toc`
+- `data-full/files/texdb/menu/menu.pvr.dat`
+- `data-full/files/texdb/menu/menu.pvr.tmb`
+- `data-full/files/texdb/menu/menu.pvr.toc`
+- `data-full/files/texdb/menu/menu.txt`
+- `data-full/files/texdb/menu/menu.unc.tmb`
+- `data-full/files/texdb/mobile/`
+- `data-full/files/texdb/mobile/mobile.dxt.dat`
+- `data-full/files/texdb/mobile/mobile.dxt.tmb`
+- `data-full/files/texdb/mobile/mobile.dxt.toc`
+- `data-full/files/texdb/mobile/mobile.etc.dat`
+- `data-full/files/texdb/mobile/mobile.etc.tmb`
+- `data-full/files/texdb/mobile/mobile.etc.toc`
+- `data-full/files/texdb/mobile/mobile.pvr.dat`
+- `data-full/files/texdb/mobile/mobile.pvr.tmb`
+- `data-full/files/texdb/mobile/mobile.pvr.toc`
+- `data-full/files/texdb/mobile/mobile.txt`
+- `data-full/files/texdb/mobile/mobile.unc.tmb`
+- `data-full/files/texdb/player.img`
+- `data-full/files/texdb/player/`
+- `data-full/files/texdb/player/player.pvr.dat`
+- `data-full/files/texdb/player/player.pvr.tmb`
+- `data-full/files/texdb/player/player.pvr.toc`
+- `data-full/files/texdb/player/player.txt`
+- `data-full/files/texdb/playerhi/`
+- `data-full/files/texdb/playerhi/playerhi.pvr.dat`
+- `data-full/files/texdb/playerhi/playerhi.pvr.tmb`
+- `data-full/files/texdb/playerhi/playerhi.pvr.toc`
+- `data-full/files/texdb/playerhi/playerhi.txt`
+- `data-full/files/texdb/samp.img`
+- `data-full/files/texdb/samp/`
+- `data-full/files/texdb/samp/samp.dxt.dat`
+- `data-full/files/texdb/samp/samp.dxt.tmb`
+- `data-full/files/texdb/samp/samp.dxt.toc`
+- `data-full/files/texdb/samp/samp.etc.dat`
+- `data-full/files/texdb/samp/samp.etc.tmb`
+- `data-full/files/texdb/samp/samp.etc.toc`
+- `data-full/files/texdb/samp/samp.pvr.dat`
+- `data-full/files/texdb/samp/samp.pvr.tmb`
+- `data-full/files/texdb/samp/samp.pvr.toc`
+- `data-full/files/texdb/samp/samp.txt`
+- `data-full/files/texdb/samp/samp.unc.dat`
+- `data-full/files/texdb/samp/samp.unc.tmb`
+- `data-full/files/texdb/samp/samp.unc.toc`
+- `data-full/files/texdb/txd/`
+- `data-full/files/texdb/txd/txd.360.dat`
+- `data-full/files/texdb/txd/txd.360.tmb`
+- `data-full/files/texdb/txd/txd.360.toc`
+- `data-full/files/texdb/txd/txd.renomear.dat`
+- `data-full/files/texdb/txd/txd.renomear.tmb`
+- `data-full/files/texdb/txd/txd.renomear.toc`
+- `data-full/files/texdb/txd/txd.txt`
+- `data-full/files/texdb/txd/txd.unc.tmb`
 
-- `logs/`
-- `logs/logcat_1748196311247.txt` — 17,028 bytes
-- `logs/logcat_1748196336234.txt` — 5,286 bytes
-- `logs/logcat_1748196355371.txt` — 3,704 bytes
-- `logs/logcat_1748196375096.txt` — 86,722 bytes
-- `logs/logcat_1748196415340.txt` — 130,894 bytes
-- `logs/logcat_1748196480584.txt` — 146,061 bytes
-- `logs/logcat_1748196601205.txt` — 68,527 bytes
-- `logs/logcat_1748196623630.txt` — 106,686 bytes
-- `logs/logcat_1748196741780.txt` — 287,847 bytes
-- `logs/logcat_1748196808582.txt` — 6,623 bytes
-- `logs/logcat_1748196911670.txt` — 218,161 bytes
-- `logs/logcat_1748196971704.txt` — 4,608 bytes
-- `logs/logcat_1748197361809.txt` — 289,993 bytes
-- `logs/logcat_1748197603171.txt` — 358,076 bytes
-- `logs/logcat_1748197665407.txt` — 4,369 bytes
-- `logs/logcat_1748199066629.txt` — 102,656 bytes
-- `logs/logcat_1748199142065.txt` — 173,370 bytes
-- `logs/logcat_1751145864845.txt` — 32,166 bytes
-- `logs/logcat_1751182906330.txt` — 69,352 bytes
-- `logs/logcat_1751182918399.txt` — 22,673 bytes
-- `logs/logcat_1751182942925.txt` — 74,357 bytes
-- `logs/logcat_1751182955083.txt` — 24,343 bytes
-- `logs/logcat_1751183130923.txt` — 75,984 bytes
-- `logs/logcat_1751183144432.txt` — 61,494 bytes
-- `logs/logcat_1751183535489.txt` — 607,019 bytes
-- `logs/logcat_1751191239723.txt` — 33,194 bytes
-- `logs/logcat_1751191242912.txt` — 20,500 bytes
-- `logs/logcat_1751191247731.txt` — 36,539 bytes
-- `logs/logcat_1751191250182.txt` — 19,997 bytes
-- `logs/logcat_1751191336742.txt` — 34,388 bytes
-- `logs/logcat_1751191339851.txt` — 7,342 bytes
-- `logs/logcat_1751191349687.txt` — 34,550 bytes
-- `logs/logcat_1751191351954.txt` — 3,433 bytes
-- `logs/logcat_1751191493580.txt` — 131,527 bytes
-- `logs/logcat_1751191729414.txt` — 699,259 bytes
-- `logs/logcat_1751194893271.txt` — 719,895 bytes
-- `logs/logcat_1751267297835.txt` — 18,933 bytes
-- `logs/logcat_1751269968303.txt` — 261,064 bytes
-- `logs/logcat_1751272062294.txt` — 137,823 bytes
-- `logs/logcat_1751272789279.txt` — 33,035 bytes
-- `logs/logcat_1751272791600.txt` — 17,334 bytes
-- `logs/logcat_1751273477455.txt` — 87,728 bytes
-- `logs/logcat_1751273496003.txt` — 5,536 bytes
-- `logs/logcat_1751273782204.txt` — 73,091 bytes
-- `logs/logcat_1751273794622.txt` — 7,692 bytes
-- `logs/logcat_1751274154093.txt` — 922,682 bytes
-- `logs/logcat_1751294431204.txt` — 331,582 bytes
-- `logs/logcat_1751305622133.txt` — 788,869 bytes
-- `logs/logcat_1751307617950.txt` — 20,147 bytes
-- `logs/logcat_1751466758016.txt` — 417,811 bytes
-- `logs/logcat_1751467281119.txt` — 211,873 bytes
-- `logs/logcat_1751468462641.txt` — 374,209 bytes
-- `logs/logcat_1751535883143.txt` — 19,613 bytes
-- `logs/logcat_1751538459518.txt` — 219,545 bytes
-- `logs/logcat_1751538670695.txt` — 19,344 bytes
-- `logs/logcat_1751651414425.txt` — 523,432 bytes
-- `logs/logcat_1751792978538.txt` — 19,488 bytes
-- `logs/logcat_1752349428763.txt` — 3,753 bytes
-- `logs/logcat_1752350883710.txt` — 90,758 bytes
-- `logs/logcat_1752352340667.txt` — 65,334 bytes
-- `logs/logcat_1752424657322.txt` — 112,948 bytes
-- `logs/logcat_1752424877572.txt` — 107,869 bytes
-- `logs/logcat_1752427135344.txt` — 101,210 bytes
-- `logs/logcat_1752427232844.txt` — 108,479 bytes
-- `logs/logcat_1752427273918.txt` — 82,379 bytes
-- `logs/logcat_1752427435033.txt` — 99,234 bytes
-- `logs/logcat_1752430970812.txt` — 117,247 bytes
-- `logs/logcat_1752483202378.txt` — 93,770 bytes
-- `logs/logcat_1752483919523.txt` — 6,096 bytes
-- `logs/logcat_1752521054696.txt` — 142,785 bytes
-- `logs/logcat_1752521582495.txt` — 127,618 bytes
-- `logs/logcat_1752521700991.txt` — 359,222 bytes
-- `logs/logcat_1752523110589.txt` — 99,572 bytes
-- `logs/logcat_1752523325616.txt` — 129,111 bytes
-- `logs/logcat_1752523843375.txt` — 13,969 bytes
-- `logs/logcat_1752523884485.txt` — 97,848 bytes
-- `logs/logcat_1752524068282.txt` — 176,007 bytes
-- `logs/logcat_1752524639025.txt` — 291,776 bytes
-- `logs/logcat_1752529632570.txt` — 68,509 bytes
-- `logs/logcat_1752531270363.txt` — 330,762 bytes
-- `logs/logcat_1752531803583.txt` — 290,249 bytes
-- `logs/logcat_1752558870285.txt` — 535,996 bytes
-- `logs/logcat_1752564038867.txt` — 224,768 bytes
-- `logs/logcat_1752564754752.txt` — 154,363 bytes
-- `logs/logcat_1752568904667.txt` — 233,231 bytes
-- `logs/logcat_1752583191790.txt` — 95,309 bytes
-- `logs/logcat_1752669339756.txt` — 74,773 bytes
-- `logs/logcat_1752669379709.txt` — 62,438 bytes
-- `logs/logcat_1752773734921.txt` — 10,744 bytes
-- `logs/logcat_1752773836135.txt` — 251,708 bytes
-- `logs/logcat_1752779848299.txt` — 13,084 bytes
-- `logs/logcat_1752781878917.txt` — 11,618 bytes
-- `logs/logcat_1752784923152.txt` — 278,307 bytes
-- `logs/logcat_1752787665108.txt` — 106,190 bytes
-- `logs/logcat_1752788001680.txt` — 145,278 bytes
-- `logs/logcat_1752788232198.txt` — 4,638 bytes
-- `logs/logcat_1752788259390.txt` — 148,350 bytes
-- `logs/logcat_1752788409701.txt` — 5,250 bytes
-- `logs/logcat_1752788614287.txt` — 240,169 bytes
-- `logs/logcat_1752789418395.txt` — 98,413 bytes
-- `logs/logcat_1752789520327.txt` — 129,357 bytes
-- `logs/logcat_1752791854337.txt` — 398,619 bytes
-- `logs/logcat_1752817532446.txt` — 276,174 bytes
-- `logs/logcat_1752831830774.txt` — 118,075 bytes
-- `logs/logcat_1752832184662.txt` — 340,752 bytes
-- `logs/logcat_1752840502579.txt` — 222,358 bytes
-- `logs/logcat_1752929464942.txt` — 188,605 bytes
-- `logs/logcat_1753049968048.txt` — 137,358 bytes
-- `logs/logcat_1753050188222.txt` — 74,640 bytes
-- `logs/logcat_1753050289342.txt` — 222,327 bytes
-- `logs/logcat_1753098702099.txt` — 278,516 bytes
-- `models/`
-- `models/coll/`
-- `models/coll/peds.col` — 21,477 bytes
-- `models/coll/vehicles.col` — 1,096 bytes
-- `models/coll/weapons.col` — 560 bytes
-- `models/effects.fxp` — 616,708 bytes
-- `models/MINFO.BIN` — 41,100 bytes
-- `SAMP/`
-- `SAMP/colorcycle.dat` — 15,455 bytes
-- `SAMP/crashdump.log` — 281,861 bytes
-- `SAMP/fonts/`
-- `SAMP/fonts/Arial Bold.ttf` — 352,224 bytes
-- `SAMP/fonts/Arial.ttf` — 367,112 bytes
-- `SAMP/fonts/arial_bold.ttf` — 367,112 bytes
-- `SAMP/fonts/GTAWEAPON3.ttf` — 295,448 bytes
-- `SAMP/fonts/Montserrat Bold.ttf` — 262,608 bytes
-- `SAMP/fonts/Montserrat ExtraBold.ttf` — 263,176 bytes
-- `SAMP/fonts/sampaux3.ttf` — 11,544 bytes
-- `SAMP/fonts/visby-round-cf-extra-bold.ttf` — 77,700 bytes
-- `SAMP/gta.dat` — 3,789 bytes
-- `SAMP/handling.cfg` — 64,532 bytes
-- `SAMP/main.scm` — 96,997 bytes
-- `SAMP/main.txt` — 3,690 bytes
-- `SAMP/outfit.dat` — 5,113 bytes
-- `SAMP/peds.ide` — 36,369 bytes
-- `SAMP/plates/`
-- `SAMP/plates/ru_font.ttf` — 233,076 bytes
-- `SAMP/plates/ua_font.ttf` — 233,176 bytes
-- `SAMP/ru.lc` — 465 bytes
-- `SAMP/SAMP.ide` — 89,349 bytes
-- `SAMP/samp.txt` — 89,182 bytes
-- `SAMP/sampn.dat` — 964 bytes
-- `SAMP/sampn.dff` — 35,413 bytes
-- `SAMP/samp_log.txt` — 33,200 bytes
-- `SAMP/script.img` — 184,320 bytes
-- `SAMP/server.ini` — 31 bytes
-- `SAMP/settings.ini` — 2,287 bytes
-- `SAMP/settings.json` — 1,097 bytes
-- `SAMP/svlog.txt` — 515 bytes
-- `SAMP/timecyc.aaa` — 38,826 bytes
-- `SAMP/TIMECYC.dat` — 38,974 bytes
-- `SAMP/timecycp.dat` — 40,520 bytes
-- `SAMP/tracks2.dat` — 1 bytes
-- `SAMP/tracks4.dat` — 1 bytes
-- `SAMP/vehicleAudioSettings.cfg` — 24,777 bytes
-- `SAMP/vehicles.ide` — 21,093 bytes
-- `SAMP/version.ini` — 19 bytes
-- `SAMP/water.dat` — 162 bytes
-- `SAMP/weapon.dat` — 11,585 bytes
-- `texdb/`
-- `texdb/buffalo.dff` — 1,103,872 bytes
-- `texdb/cars.img` — 165,888 bytes
-- `texdb/cutscene/`
-- `texdb/cutscene/cutscene.dxt.dat` — 5,731,070 bytes
-- `texdb/cutscene/cutscene.dxt.tmb` — 19,440 bytes
-- `texdb/cutscene/cutscene.dxt.toc` — 1,628 bytes
-- `texdb/cutscene/cutscene.etc.dat` — 5,731,070 bytes
-- `texdb/cutscene/cutscene.etc.tmb` — 19,440 bytes
-- `texdb/cutscene/cutscene.etc.toc` — 1,628 bytes
-- `texdb/cutscene/cutscene.pvr.dat` — 5,731,070 bytes
-- `texdb/cutscene/cutscene.pvr.tmb` — 19,440 bytes
-- `texdb/cutscene/cutscene.pvr.toc` — 1,628 bytes
-- `texdb/cutscene/cutscene.txt` — 24,626 bytes
-- `texdb/cutscene/cutscene.unc.tmb` — 56,304 bytes
-- `texdb/cutscene.img` — 16,029,696 bytes
-- `texdb/gibdd1.DFF` — 1,382,400 bytes
-- `texdb/gibdd2.DFF` — 1,714,176 bytes
-- `texdb/gibdd3.DFF` — 1,466,368 bytes
-- `texdb/gibdd4.DFF` — 1,818,624 bytes
-- `texdb/gta3/`
-- `texdb/gta3/gta3.dxt.dat` — 185,362,914 bytes
-- `texdb/gta3/gta3.dxt.tmb` — 525,400 bytes
-- `texdb/gta3/gta3.dxt.toc` — 49,784 bytes
-- `texdb/gta3/gta3.etc.dat` — 185,362,914 bytes
-- `texdb/gta3/gta3.etc.tmb` — 525,400 bytes
-- `texdb/gta3/gta3.etc.toc` — 49,784 bytes
-- `texdb/gta3/gta3.pvr.dat` — 185,362,914 bytes
-- `texdb/gta3/gta3.pvr.tmb` — 525,400 bytes
-- `texdb/gta3/gta3.pvr.toc` — 49,784 bytes
-- `texdb/gta3/gta3.txt` — 792,628 bytes
-- `texdb/gta3/gta3.unc.dat` — 43,343,318 bytes
-- `texdb/gta3/gta3.unc.tmb` — 1,457,464 bytes
-- `texdb/gta3/gta3.unc.toc` — 27,140 bytes
-- `texdb/gta3/New Folder/`
-- `texdb/gta3/New Folder/gta3.etc.dat` — 579,595,554 bytes
-- `texdb/gta3/New Folder/gta3.etc.tmb` — 784,948 bytes
-- `texdb/gta3/New Folder/gta3.etc.toc` — 53,572 bytes
-- `texdb/gta3.img` — 283,521,024 bytes
-- `texdb/gtasa/`
-- `texdb/gtasa/gtasa.dxt.dat` — 495,532 bytes
-- `texdb/gtasa/gtasa.dxt.tmb` — 3,264 bytes
-- `texdb/gtasa/gtasa.dxt.toc` — 52 bytes
-- `texdb/gtasa/gtasa.txt` — 860 bytes
-- `texdb/gtasa/gtasa.unc.dat` — 495,896 bytes
-- `texdb/gtasa/gtasa.unc.tmb` — 3,264 bytes
-- `texdb/gtasa/gtasa.unc.toc` — 52 bytes
-- `texdb/gta_int/`
-- `texdb/gta_int/gta_int.dxt.dat` — 48,496,978 bytes
-- `texdb/gta_int/gta_int.dxt.tmb` — 125,994 bytes
-- `texdb/gta_int/gta_int.dxt.toc` — 10,168 bytes
-- `texdb/gta_int/gta_int.etc.dat` — 48,496,978 bytes
-- `texdb/gta_int/gta_int.etc.tmb` — 125,994 bytes
-- `texdb/gta_int/gta_int.etc.toc` — 10,168 bytes
-- `texdb/gta_int/gta_int.pvr.dat` — 48,496,978 bytes
-- `texdb/gta_int/gta_int.pvr.tmb` — 125,994 bytes
-- `texdb/gta_int/gta_int.pvr.toc` — 10,168 bytes
-- `texdb/gta_int/gta_int.txt` — 159,541 bytes
-- `texdb/gta_int/gta_int.unc.tmb` — 352,202 bytes
-- `texdb/gta_int/New Folder/`
-- `texdb/gta_int/New Folder/gta_int.etc.dat` — 499,305,004 bytes
-- `texdb/gta_int/New Folder/gta_int.etc.tmb` — 680,928 bytes
-- `texdb/gta_int/New Folder/gta_int.etc.toc` — 46,680 bytes
-- `texdb/gta_int.img` — 44,836,864 bytes
-- `texdb/manana.dff` — 1,105,920 bytes
-- `texdb/menu/`
-- `texdb/menu/menu.dxt.dat` — 7,799,478 bytes
-- `texdb/menu/menu.dxt.tmb` — 860 bytes
-- `texdb/menu/menu.dxt.toc` — 176 bytes
-- `texdb/menu/menu.etc.dat` — 10,822,324 bytes
-- `texdb/menu/menu.etc.tmb` — 860 bytes
-- `texdb/menu/menu.etc.toc` — 176 bytes
-- `texdb/menu/menu.pvr.dat` — 10,822,324 bytes
-- `texdb/menu/menu.pvr.tmb` — 860 bytes
-- `texdb/menu/menu.pvr.toc` — 176 bytes
-- `texdb/menu/menu.txt` — 3,342 bytes
-- `texdb/menu/menu.unc.tmb` — 860 bytes
-- `texdb/mobile/`
-- `texdb/mobile/mobile.dxt.dat` — 8,712,314 bytes
-- `texdb/mobile/mobile.dxt.tmb` — 3,940 bytes
-- `texdb/mobile/mobile.dxt.toc` — 792 bytes
-- `texdb/mobile/mobile.etc.dat` — 8,712,314 bytes
-- `texdb/mobile/mobile.etc.tmb` — 3,940 bytes
-- `texdb/mobile/mobile.etc.toc` — 792 bytes
-- `texdb/mobile/mobile.pvr.dat` — 8,712,314 bytes
-- `texdb/mobile/mobile.pvr.tmb` — 3,940 bytes
-- `texdb/mobile/mobile.pvr.toc` — 792 bytes
-- `texdb/mobile/mobile.txt` — 14,502 bytes
-- `texdb/mobile/mobile.unc.tmb` — 32,164 bytes
-- `texdb/mobile/New Folder/`
-- `texdb/mobile/New Folder/mobile.etc.dat` — 21,415,694 bytes
-- `texdb/mobile/New Folder/mobile.etc.tmb` — 17,828 bytes
-- `texdb/mobile/New Folder/mobile.etc.toc` — 792 bytes
-- `texdb/mobile/New Folder/mobile.pvr.dat` — 8,712,314 bytes
-- `texdb/mobile/New Folder/mobile.pvr.tmb` — 3,940 bytes
-- `texdb/mobile/New Folder/mobile.pvr.toc` — 792 bytes
-- `texdb/player.img` — 16,412,672 bytes
-- `texdb/player/`
-- `texdb/player/player.pvr.dat` — 6,569,414 bytes
-- `texdb/player/player.pvr.tmb` — 6,940 bytes
-- `texdb/player/player.pvr.toc` — 1,580 bytes
-- `texdb/player/player.txt` — 27,810 bytes
-- `texdb/playerhi/`
-- `texdb/playerhi/playerhi.dxt.dat` — 27,658,902 bytes
-- `texdb/playerhi/playerhi.dxt.tmb` — 6,940 bytes
-- `texdb/playerhi/playerhi.dxt.toc` — 1,580 bytes
-- `texdb/playerhi/playerhi.pvr.dat` — 27,658,902 bytes
-- `texdb/playerhi/playerhi.pvr.tmb` — 6,940 bytes
-- `texdb/playerhi/playerhi.pvr.toc` — 1,580 bytes
-- `texdb/playerhi/playerhi.txt` — 28,087 bytes
-- `texdb/samp/`
-- `texdb/samp/samp.dxt.dat` — 51,188,118 bytes
-- `texdb/samp/samp.dxt.tmb` — 28,572 bytes
-- `texdb/samp/samp.dxt.toc` — 6,600 bytes
-- `texdb/samp/samp.etc.dat` — 51,188,118 bytes
-- `texdb/samp/samp.etc.tmb` — 28,572 bytes
-- `texdb/samp/samp.etc.toc` — 6,600 bytes
-- `texdb/samp/samp.pvr.dat` — 51,188,118 bytes
-- `texdb/samp/samp.pvr.tmb` — 28,572 bytes
-- `texdb/samp/samp.pvr.toc` — 6,600 bytes
-- `texdb/samp/samp.txt` — 95,766 bytes
-- `texdb/samp/samp.unc.dat` — 32,994,482 bytes
-- `texdb/samp/samp.unc.tmb` — 51,612 bytes
-- `texdb/samp/samp.unc.toc` — 6,132 bytes
-- `texdb/SAMP.ide` — 89,400 bytes
-- `texdb/samp.img` — 36,902,912 bytes
-- `texdb/SAMP.ipl` — 2,291 bytes
-- `texdb/SAMPCOL.img` — 4,253,696 bytes
-- `texdb/sentinel.dff` — 1,056,768 bytes
-- `texdb/skins.img` — 8,192 bytes
-- `texdb/txd/`
-- `texdb/txd/New Folder/`
-- `texdb/txd/New Folder/txd.etc.dat` — 33,967,554 bytes
-- `texdb/txd/New Folder/txd.etc.tmb` — 89,636 bytes
-- `texdb/txd/New Folder/txd.etc.toc` — 3,356 bytes
-- `texdb/txd/txd.360.dat` — 7,625,578 bytes
-- `texdb/txd/txd.360.tmb` — 31,028 bytes
-- `texdb/txd/txd.360.toc` — 2,376 bytes
-- `texdb/txd/txd.dxt.dat` — 7,624,782 bytes
-- `texdb/txd/txd.dxt.tmb` — 31,208 bytes
-- `texdb/txd/txd.dxt.toc` — 2,376 bytes
-- `texdb/txd/txd.etc.dat` — 7,624,782 bytes
-- `texdb/txd/txd.etc.tmb` — 31,208 bytes
-- `texdb/txd/txd.etc.toc` — 2,376 bytes
-- `texdb/txd/txd.pvr.dat` — 7,624,782 bytes
-- `texdb/txd/txd.pvr.tmb` — 31,208 bytes
-- `texdb/txd/txd.pvr.toc` — 2,376 bytes
-- `texdb/txd/txd.txt` — 43,073 bytes
-- `texdb/txd/txd.txt.bak` — 114,024 bytes
-- `texdb/txd/txd.txt~` — 56,225 bytes
-- `texdb/txd/txd.unc.tmb` — 60,392 bytes
-- `Text/`
-- `Text/american.gxt` — 1,339,082 bytes
-- `Text/french.gxt` — 1,467,502 bytes
-- `Text/german.gxt` — 1,497,042 bytes
-- `Text/italian.gxt` — 1,370,932 bytes
-- `Text/japanese.gxt` — 643,330 bytes
-- `Text/russian.gxt` — 1,421,150 bytes
-- `Text/spanish.gxt` — 1,386,626 bytes
-- `Textures/`
-- `Textures/fonts/`
-- `Textures/fonts/JapaneseFont.met` — 45,171 bytes
-- `Textures/fonts/RussianFont.met` — 4,279 bytes
-- `Textures/fonts/RussianFont.png` — 38,743 bytes
-- `Adjustable.cfg` — 154 bytes
-- `CINFO.BIN` — 634,084 bytes
-- `gta_sa.set` — 167 bytes
-- `GTASAMP10.b` — 130,000 bytes
-- `gtasatelem.set` — 392 bytes
-- `logcat.txt` — 4,569,236 bytes
-- `samp_log.txt` — 168,195 bytes
-- `scache.txt` — 3,883 bytes
-- `scache_small.txt` — 1,010 bytes
-- `scache_small_low.txt` — 943 bytes
-- `stream.ini` — 197 bytes
-- `anim/`
-- `anim/anim.img` — 10,942,464 bytes
-- `anim/cuts.img` — 16,029,696 bytes
-- `anim/ped.ifp` — 1,433,248 bytes
-- `audio/`
-- `audio/CONFIG/`
-- `audio/CONFIG/AudioEventHistory.txt` — 114,056 bytes
-- `audio/CONFIG/BankLkup.dat` — 8,520 bytes
-- `audio/CONFIG/BankSlot.dat` — 216,902 bytes
-- `audio/CONFIG/EventVol.dat` — 45,402 bytes
-- `audio/CONFIG/PakFiles.dat` — 468 bytes
-- `audio/CONFIG/SOUNDINF.DAT` — 746,760 bytes
-- `audio/CONFIG/StrmPaks.dat` — 272 bytes
-- `audio/CONFIG/TrakLkup.dat` — 23,064 bytes
-- `audio/CONFIG/TRKHEAD.DAT` — 15,506,696 bytes
-- `audio/SFX/`
-- `audio/SFX/FEET.osw` — 138,118 bytes
-- `audio/SFX/FEET.osw.idx` — 1,220 bytes
-- `audio/SFX/GENRL.osw` — 9,362,373 bytes
-- `audio/SFX/GENRL.osw.idx` — 20,868 bytes
-- `audio/SFX/PAIN_A.osw` — 3,247,335 bytes
-- `audio/SFX/PAIN_A.osw.idx` — 12,836 bytes
-- `audio/SFX/SCRIPT.osw` — 99,239,609 bytes
-- `audio/SFX/SCRIPT.osw.idx` — 219,236 bytes
-- `audio/SFX/SPC_EA.osw` — 40,734,626 bytes
-- `audio/SFX/SPC_EA.osw.idx` — 116,644 bytes
-- `audio/SFX/SPC_FA.osw` — 35,259,227 bytes
-- `audio/SFX/SPC_FA.osw.idx` — 87,716 bytes
-- `audio/SFX/SPC_GA.osw` — 35,259,227 bytes
-- `audio/SFX/SPC_GA.osw.idx` — 999,492 bytes
-- `audio/SFX/SPC_NA.osw` — 394,340 bytes
-- `audio/SFX/SPC_NA.osw.idx` — 394,340 bytes
-- `audio/SFX/SPC_PA.osw` — 45,319,767 bytes
-- `audio/SFX/SPC_PA.osw.idx` — 131,460 bytes
-- `audio/STREAMS/`
-- `audio/STREAMS/AA.osw` — 15,462 bytes
-- `audio/STREAMS/AA.osw.idx` — 1,522 bytes
-- `audio/STREAMS/ADVERTS.osw` — 3,516,982 bytes
-- `audio/STREAMS/ADVERTS.osw.idx` — 1,591 bytes
-- `audio/STREAMS/AMBIENCE.osw` — 22,719,112 bytes
-- `audio/STREAMS/AMBIENCE.osw.idx` — 924 bytes
-- `audio/STREAMS/BEATS.osw` — 9,415,375 bytes
-- `audio/STREAMS/BEATS.osw.idx` — 234 bytes
-- `audio/STREAMS/CH.osw` — 15,462 bytes
-- `audio/STREAMS/CH.osw.idx` — 2,994 bytes
-- `audio/STREAMS/CO.osw` — 15,462 bytes
-- `audio/STREAMS/CO.osw.idx` — 3,569 bytes
-- `audio/STREAMS/CR.osw` — 15,462 bytes
-- `audio/STREAMS/CR.osw.idx` — 3,592 bytes
-- `audio/STREAMS/CUTSCENE.osw` — 301,175 bytes
-- `audio/STREAMS/CUTSCENE.osw.idx` — 3,247 bytes
-- `audio/STREAMS/DS.osw` — 15,462 bytes
-- `audio/STREAMS/DS.osw.idx` — 4,121 bytes
-- `audio/STREAMS/HC.osw` — 15,462 bytes
-- `audio/STREAMS/HC.osw.idx` — 2,649 bytes
-- `audio/STREAMS/MH.osw` — 15,462 bytes
-- `audio/STREAMS/MH.osw.idx` — 3,500 bytes
-- `audio/STREAMS/MR.osw` — 15,462 bytes
-- `audio/STREAMS/MR.osw.idx` — 3,385 bytes
-- `audio/STREAMS/NJ.osw` — 15,462 bytes
-- `audio/STREAMS/NJ.osw.idx` — 2,994 bytes
-- `audio/STREAMS/RE.osw` — 15,462 bytes
-- `audio/STREAMS/RE.osw.idx` — 3,707 bytes
-- `audio/STREAMS/RG.osw` — 15,462 bytes
-- `audio/STREAMS/RG.osw.idx` — 3,914 bytes
-- `audio/STREAMS/TK.osw` — 15,462 bytes
-- `audio/STREAMS/TK.osw.idx` — 2,327 bytes
-- `data/`
-- `data/360Default1280x720.cfg` — 10,898 bytes
-- `data/360Default960x720.cfg` — 10,888 bytes
-- `data/animgrp.dat` — 3,096 bytes
-- `data/ar_stats.dat` — 3,593 bytes
-- `data/carcols.dat` — 15,361 bytes
-- `data/cargrp.dat` — 3,963 bytes
-- `data/carmods.dat` — 9,110 bytes
-- `data/clothes.dat` — 5,317 bytes
-- `data/colorcycle.dat` — 15,455 bytes
-- `data/Decision/`
-- `data/Decision/Allowed/`
-- `data/Decision/Allowed/Cop.ped` — 4,908 bytes
-- `data/Decision/Allowed/Fireman.ped` — 4,435 bytes
-- `data/Decision/Allowed/GangMbr.ped` — 6,194 bytes
-- `data/Decision/Allowed/Indoors.ped` — 2,809 bytes
-- `data/Decision/Allowed/MISSION.grp` — 2,758 bytes
-- `data/Decision/Allowed/m_empty.ped` — 982 bytes
-- `data/Decision/Allowed/m_norm.ped` — 4,142 bytes
-- `data/Decision/Allowed/m_plyr.ped` — 2,000 bytes
-- `data/Decision/Allowed/m_steal.ped` — 3,663 bytes
-- `data/Decision/Allowed/m_tough.ped` — 3,980 bytes
-- `data/Decision/Allowed/m_weak.ped` — 4,062 bytes
-- `data/Decision/Allowed/RANDOM.grp` — 4,623 bytes
-- `data/Decision/Allowed/RANDOM.ped` — 4,142 bytes
-- `data/Decision/Allowed/RANDOM2.grp` — 4,623 bytes
-- `data/Decision/Allowed/R_Norm.ped` — 6,450 bytes
-- `data/Decision/Allowed/R_Tough.ped` — 6,378 bytes
-- `data/Decision/Allowed/R_Weak.ped` — 6,289 bytes
-- `data/Decision/PedEvent.txt` — 1,298 bytes
-- `data/default.dat` — 577 bytes
-- `data/default.ide` — 4,679 bytes
-- `data/fonts.dat` — 3,576 bytes
-- `data/furnitur.dat` — 16,480 bytes
-- `data/gridref.dat` — 1,498 bytes
-- `data/gta.dat` — 3,776 bytes
-- `data/handling.cfg` — 64,532 bytes
-- `data/info.zon` — 28,139 bytes
-- `data/map.zon` — 436 bytes
-- `data/maps/`
-- `data/maps/Audiozon.ipl` — 10,802 bytes
-- `data/maps/blocke.IDE` — 10,069 bytes
-- `data/maps/blocke.IPL` — 323,597 bytes
-- `data/maps/country/`
-- `data/maps/country/countn2.ide` — 35,439 bytes
-- `data/maps/country/countn2.ipl` — 41,665 bytes
-- `data/maps/country/countrye.ide` — 34,529 bytes
-- `data/maps/country/countrye.ipl` — 49,301 bytes
-- `data/maps/country/countryN.ide` — 11,308 bytes
-- `data/maps/country/countryN.ipl` — 14,407 bytes
-- `data/maps/country/countryS.ide` — 18,450 bytes
-- `data/maps/country/countryS.ipl` — 33,835 bytes
-- `data/maps/country/countryW.ide` — 19,704 bytes
-- `data/maps/country/countryw.ipl` — 35,057 bytes
-- `data/maps/country/counxref.ide` — 8,494 bytes
-- `data/maps/CR1.IDE` — 13,919 bytes
-- `data/maps/CR1.IPL` — 26,731 bytes
-- `data/maps/CR10.IDE` — 472 bytes
-- `data/maps/CR10.IPL` — 192,971 bytes
-- `data/maps/CR11.ide` — 114,987 bytes
-- `data/maps/CR11.IPL` — 253,536 bytes
-- `data/maps/CR12.ide` — 14,690 bytes
-- `data/maps/CR12.IPL` — 29,318 bytes
-- `data/maps/CR14.IDE` — 44,775 bytes
-- `data/maps/CR14.IPL` — 127,681 bytes
-- `data/maps/CR2.ide` — 12,164 bytes
-- `data/maps/CR2.IPL` — 18,597 bytes
-- `data/maps/CR3.ide` — 7,704 bytes
-- `data/maps/CR3.IPL` — 12,747 bytes
-- `data/maps/CR4.IDE` — 13,712 bytes
-- `data/maps/CR4.IPL` — 19,462 bytes
-- `data/maps/CR5.IDE` — 10,119 bytes
-- `data/maps/CR5.IPL` — 10,029 bytes
-- `data/maps/CR6.ide` — 3,065 bytes
-- `data/maps/CR6.IPL` — 19,848 bytes
-- `data/maps/CR7.IDE` — 2,821 bytes
-- `data/maps/CR7.IPL` — 3,620 bytes
-- `data/maps/CR8.IDE` — 55,449 bytes
-- `data/maps/CR8.IPL` — 257,267 bytes
-- `data/maps/CR9.IDE` — 1,008 bytes
-- `data/maps/CR9.IPL` — 140,699 bytes
-- `data/maps/cull.ipl` — 104,318 bytes
-- `data/maps/derevopidr.IPL` — 53,218 bytes
-- `data/maps/generic/`
-- `data/maps/generic/barriers.ide` — 1,437 bytes
-- `data/maps/generic/dynamic.ide` — 4,611 bytes
-- `data/maps/generic/dynamic2.ide` — 10,510 bytes
-- `data/maps/generic/multiobj.ide` — 5,020 bytes
-- `data/maps/generic/procobj.ide` — 4,755 bytes
-- `data/maps/generic/vegepart.ide` — 8,062 bytes
-- `data/maps/gorod10.IPL` — 185,212 bytes
-- `data/maps/interior/`
-- `data/maps/interior/gen_int1.ide` — 2,747 bytes
-- `data/maps/interior/gen_int1.ipl` — 21,074 bytes
-- `data/maps/interior/gen_int2.ide` — 10,941 bytes
-- `data/maps/interior/gen_int2.ipl` — 1,683 bytes
-- `data/maps/interior/gen_int3.ide` — 3,252 bytes
-- `data/maps/interior/gen_int3.ipl` — 2,091 bytes
-- `data/maps/interior/gen_int4.ide` — 2,323 bytes
-- `data/maps/interior/gen_int4.ipl` — 1,185 bytes
-- `data/maps/interior/gen_int5.ide` — 4,682 bytes
-- `data/maps/interior/gen_int5.ipl` — 2,988 bytes
-- `data/maps/interior/gen_intb.ide` — 5,459 bytes
-- `data/maps/interior/gen_intb.ipl` — 1,626 bytes
-- `data/maps/interior/int_cont.ide` — 385 bytes
-- `data/maps/interior/int_cont.ipl` — 910 bytes
-- `data/maps/interior/int_LA.ide` — 6,004 bytes
-- `data/maps/interior/int_LA.ipl` — 1,312 bytes
-- `data/maps/interior/int_SF.ide` — 1,260 bytes
-- `data/maps/interior/int_SF.ipl` — 1,334 bytes
-- `data/maps/interior/int_veg.ide` — 4,684 bytes
-- `data/maps/interior/int_veg.ipl` — 5,299 bytes
-- `data/maps/interior/propext.ide` — 2,340 bytes
-- `data/maps/interior/props.ide` — 26,326 bytes
-- `data/maps/interior/props2.ide` — 21,174 bytes
-- `data/maps/interior/savehous.ide` — 1,724 bytes
-- `data/maps/interior/savehous.ipl` — 2,959 bytes
-- `data/maps/interior/stadint.ide` — 2,851 bytes
-- `data/maps/interior/stadint.ipl` — 6,299 bytes
-- `data/maps/LA/`
-- `data/maps/LA/LAe.ide` — 12,249 bytes
-- `data/maps/LA/LAe.ipl` — 27,328 bytes
-- `data/maps/LA/LAe2.ide` — 21,907 bytes
-- `data/maps/LA/LAe2.ipl` — 33,651 bytes
-- `data/maps/LA/LAhills.ide` — 10,601 bytes
-- `data/maps/LA/LAhills.ipl` — 34,506 bytes
-- `data/maps/LA/LAn.ide` — 11,107 bytes
-- `data/maps/LA/LAn.ipl` — 14,264 bytes
-- `data/maps/LA/LAn2.ide` — 9,565 bytes
-- `data/maps/LA/LAn2.ipl` — 13,185 bytes
-- `data/maps/LA/LAs.ide` — 12,575 bytes
-- `data/maps/LA/LAs.ipl` — 22,414 bytes
-- `data/maps/LA/LAs2.ide` — 12,364 bytes
-- `data/maps/LA/LAs2.ipl` — 38,441 bytes
-- `data/maps/LA/LAw.ide` — 9,412 bytes
-- `data/maps/LA/LAw.ipl` — 15,105 bytes
-- `data/maps/LA/LAw2.ide` — 11,060 bytes
-- `data/maps/LA/LAw2.ipl` — 18,232 bytes
-- `data/maps/LA/LaWn.ide` — 13,092 bytes
-- `data/maps/LA/LaWn.ipl` — 24,330 bytes
-- `data/maps/LA/LAxref.ide` — 10,477 bytes
-- `data/maps/leveldes/`
-- `data/maps/leveldes/leveldes.ide` — 360 bytes
-- `data/maps/leveldes/leveldes.ipl` — 165 bytes
-- `data/maps/leveldes/levelmap.ide` — 3,194 bytes
-- `data/maps/leveldes/levelmap.ipl` — 4,675 bytes
-- `data/maps/leveldes/levelxre.ide` — 9,897 bytes
-- `data/maps/leveldes/seabed.ide` — 12,039 bytes
-- `data/maps/leveldes/seabed.ipl` — 23,342 bytes
-- `data/maps/new 1.txt` — 0 bytes
-- `data/maps/occlu.ipl` — 1,012 bytes
-- `data/maps/occluint.ipl` — 2,338 bytes
-- `data/maps/occluLA.ipl` — 35,956 bytes
-- `data/maps/occlusf.ipl` — 16,114 bytes
-- `data/maps/occluveg.ipl` — 17,944 bytes
-- `data/maps/paths.img` — 135,168 bytes
-- `data/maps/paths.ipl` — 2,658,607 bytes
-- `data/maps/paths2.ipl` — 2,292,241 bytes
-- `data/maps/paths3.ipl` — 2,428,066 bytes
-- `data/maps/paths4.ipl` — 253,014 bytes
-- `data/maps/paths5.ipl` — 457,678 bytes
-- `data/maps/SF/`
-- `data/maps/SF/SFe.ide` — 16,224 bytes
-- `data/maps/SF/SFe.ipl` — 26,707 bytes
-- `data/maps/SF/SFn.ide` — 11,219 bytes
-- `data/maps/SF/SFn.ipl` — 26,201 bytes
-- `data/maps/SF/SFs.ide` — 18,948 bytes
-- `data/maps/SF/SFs.ipl` — 37,969 bytes
-- `data/maps/SF/SFSe.ide` — 30,227 bytes
-- `data/maps/SF/SFSe.ipl` — 53,359 bytes
-- `data/maps/SF/SFw.ide` — 16,473 bytes
-- `data/maps/SF/SFw.ipl` — 29,247 bytes
-- `data/maps/SF/SFxref.ide` — 4,631 bytes
-- `data/maps/tunnels.ipl` — 3,230 bytes
-- `data/maps/txd.ide` — 323 bytes
-- `data/maps/vegas/`
-- `data/maps/vegas/vegasE.ide` — 35,542 bytes
-- `data/maps/vegas/vegasE.ipl` — 61,084 bytes
-- `data/maps/vegas/VegasN.ide` — 23,715 bytes
-- `data/maps/vegas/vegasN.ipl` — 36,651 bytes
-- `data/maps/vegas/VegasS.ide` — 18,656 bytes
-- `data/maps/vegas/vegasS.ipl` — 30,343 bytes
-- `data/maps/vegas/VegasW.ide` — 25,456 bytes
-- `data/maps/vegas/vegasW.ipl` — 49,867 bytes
-- `data/maps/vegas/vegaxref.ide` — 5,751 bytes
-- `data/maps/vegas/vegaxref.ipl` — 3,661 bytes
-- `data/maps/veh_mods/`
-- `data/maps/veh_mods/veh_mods.ide` — 7,323 bytes
-- `data/maps/zima.IDE` — 824 bytes
-- `data/maps/zima.IPL` — 52,461 bytes
-- `data/melee.dat` — 6,306 bytes
-- `data/object.dat` — 126,118 bytes
-- `data/paths/`
-- `data/paths/carrec.img` — 2,357,248 bytes
-- `data/paths/ROADBLOX.DAT` — 1,304 bytes
-- `data/paths/tracks.dat` — 25,474 bytes
-- `data/paths/tracks2.dat` — 1,892 bytes
-- `data/paths/tracks3.dat` — 8,328 bytes
-- `data/paths/tracks4.dat` — 18,347 bytes
-- `data/paths/trum.dat` — 4,114 bytes
-- `data/ped.dat` — 1,276 bytes
-- `data/pedgrp.dat` — 5,792 bytes
-- `data/peds.ide` — 33,401 bytes
-- `data/pedstats.dat` — 3,604 bytes
-- `data/plants.dat` — 9,887 bytes
-- `data/popcycle.dat` — 127,108 bytes
-- `data/procobj.dat` — 10,019 bytes
-- `data/script/`
-- `data/script/mainv1.scm` — 18,398 bytes
-- `data/script/mainv1.txt` — 3,690 bytes
-- `data/script/scriptv1.img` — 4,096 bytes
-- `data/shopping.dat` — 46,875 bytes
-- `data/ShopUVs.dat` — 30,509 bytes
-- `data/statdisp.dat` — 7,292 bytes
-- `data/surface.dat` — 576 bytes
-- `data/surfaud.dat` — 6,530 bytes
-- `data/surfinfo.dat` — 28,106 bytes
-- `data/timecyc.dat` — 39,406 bytes
-- `data/timecycp.dat` — 40,520 bytes
-- `data/TouchDefaultPhone3x2.cfg` — 10,912 bytes
-- `data/TouchDefaultPhoneWidescreen.cfg` — 10,924 bytes
-- `data/TouchDefaultTablet4x3.cfg` — 10,926 bytes
-- `data/TouchDefaultTabletWidescreen.cfg` — 10,923 bytes
-- `data/txdcut.ide` — 478 bytes
-- `data/vehicles.ide` — 21,093 bytes
-- `data/water.dat` — 70,099 bytes
-- `data/water1.dat` — 60,063 bytes
-- `data/weapon.dat` — 11,602 bytes
-- `downloand/`
-- `fonts/`
-- `fonts/arial.ttf` — 367,112 bytes
-- `fonts/arial_bold.ttf` — 352,224 bytes
-- `fonts/georgia.ttf` — 219,712 bytes
-- `fonts/gtaweap3.ttf` — 104,004 bytes
-- `fonts/impact.ttf` — 206,784 bytes
-- `fonts/palatino_linotype.ttf` — 489,884 bytes
-- `fonts/quartz_ms.ttf` — 51,032 bytes
-- `fonts/segoe_print.ttf` — 172,448 bytes
-- `fonts/segoe_script.ttf` — 620,204 bytes
-- `fonts/tahoma.ttf` — 939,280 bytes
-- `fonts/webdings.ttf` — 120,560 bytes
-- `fonts/wingding.ttf` — 82,180 bytes
+### `data-lite/files`
+
+- `data-lite/files/`
+- `data-lite/files/Adjustable.cfg`
+- `data-lite/files/CINFO.BIN`
+- `data-lite/files/GTASAMP10.b`
+- `data-lite/files/SAMP/`
+- `data-lite/files/SAMP/SAMP.ide`
+- `data-lite/files/SAMP/WEAPON.dat`
+- `data-lite/files/SAMP/bpv.txt`
+- `data-lite/files/SAMP/chat.log`
+- `data-lite/files/SAMP/colorcycle.dat`
+- `data-lite/files/SAMP/crash.log`
+- `data-lite/files/SAMP/crash_log.log`
+- `data-lite/files/SAMP/favorites.json`
+- `data-lite/files/SAMP/gta.dat`
+- `data-lite/files/SAMP/handling.cfg`
+- `data-lite/files/SAMP/jekmant_log.txt`
+- `data-lite/files/SAMP/main.scm`
+- `data-lite/files/SAMP/peds.ide`
+- `data-lite/files/SAMP/samp.log`
+- `data-lite/files/SAMP/samp_log.txt`
+- `data-lite/files/SAMP/script.img`
+- `data-lite/files/SAMP/server.ini`
+- `data-lite/files/SAMP/settings.ini`
+- `data-lite/files/SAMP/settings.json`
+- `data-lite/files/SAMP/svlog.txt`
+- `data-lite/files/SAMP/timecyc.dat`
+- `data-lite/files/SAMP/tracks2.dat`
+- `data-lite/files/SAMP/tracks4.dat`
+- `data-lite/files/SAMP/vehicleAudioSettings.cfg`
+- `data-lite/files/SAMP/vehicles.ide`
+- `data-lite/files/SAMP/voice.log`
+- `data-lite/files/SAMP/voiceconfig.ini`
+- `data-lite/files/anim/`
+- `data-lite/files/anim/anim.img`
+- `data-lite/files/anim/cuts.img`
+- `data-lite/files/anim/ped.ifp`
+- `data-lite/files/audio/`
+- `data-lite/files/audio/CONFIG/`
+- `data-lite/files/audio/CONFIG/AudioEventHistory.txt`
+- `data-lite/files/audio/CONFIG/BankLkup.dat`
+- `data-lite/files/audio/CONFIG/BankSlot.dat`
+- `data-lite/files/audio/CONFIG/EventVol.dat`
+- `data-lite/files/audio/CONFIG/PakFiles.dat`
+- `data-lite/files/audio/CONFIG/SOUNDINF.DAT`
+- `data-lite/files/audio/CONFIG/StrmPaks.dat`
+- `data-lite/files/audio/CONFIG/TRKHEAD.DAT`
+- `data-lite/files/audio/CONFIG/TrakLkup.dat`
+- `data-lite/files/audio/SFX/`
+- `data-lite/files/audio/SFX/FEET.osw`
+- `data-lite/files/audio/SFX/FEET.osw.idx`
+- `data-lite/files/audio/SFX/GENRL.osw`
+- `data-lite/files/audio/SFX/GENRL.osw.idx`
+- `data-lite/files/audio/SFX/PAIN_A.osw`
+- `data-lite/files/audio/SFX/PAIN_A.osw.idx`
+- `data-lite/files/audio/STREAMS/`
+- `data-lite/files/audio/STREAMS/AA.osw`
+- `data-lite/files/audio/STREAMS/AA.osw.idx`
+- `data-lite/files/audio/STREAMS/ADVERTS.osw`
+- `data-lite/files/audio/STREAMS/ADVERTS.osw.idx`
+- `data-lite/files/audio/STREAMS/AMBIENCE.osw`
+- `data-lite/files/audio/STREAMS/AMBIENCE.osw.idx`
+- `data-lite/files/audio/STREAMS/BEATS.osw`
+- `data-lite/files/audio/STREAMS/BEATS.osw.idx`
+- `data-lite/files/audio/STREAMS/CH.osw`
+- `data-lite/files/audio/STREAMS/CH.osw.idx`
+- `data-lite/files/audio/STREAMS/CO.osw`
+- `data-lite/files/audio/STREAMS/CO.osw.idx`
+- `data-lite/files/audio/STREAMS/CR.osw`
+- `data-lite/files/audio/STREAMS/CR.osw.idx`
+- `data-lite/files/audio/STREAMS/CUTSCENE.osw`
+- `data-lite/files/audio/STREAMS/CUTSCENE.osw.idx`
+- `data-lite/files/audio/STREAMS/DS.osw`
+- `data-lite/files/audio/STREAMS/DS.osw.idx`
+- `data-lite/files/audio/STREAMS/HC.osw`
+- `data-lite/files/audio/STREAMS/HC.osw.idx`
+- `data-lite/files/audio/STREAMS/MH.osw`
+- `data-lite/files/audio/STREAMS/MH.osw.idx`
+- `data-lite/files/audio/STREAMS/MR.osw`
+- `data-lite/files/audio/STREAMS/MR.osw.idx`
+- `data-lite/files/audio/STREAMS/NJ.osw`
+- `data-lite/files/audio/STREAMS/NJ.osw.idx`
+- `data-lite/files/audio/STREAMS/RE.osw`
+- `data-lite/files/audio/STREAMS/RE.osw.idx`
+- `data-lite/files/audio/STREAMS/RG.osw`
+- `data-lite/files/audio/STREAMS/RG.osw.idx`
+- `data-lite/files/audio/STREAMS/TK.osw`
+- `data-lite/files/audio/STREAMS/TK.osw.idx`
+- `data-lite/files/data/`
+- `data-lite/files/data/360Default1280x720.cfg`
+- `data-lite/files/data/360Default960x720.cfg`
+- `data-lite/files/data/Decision/`
+- `data-lite/files/data/Decision/Allowed/`
+- `data-lite/files/data/Decision/Allowed/Cop.ped`
+- `data-lite/files/data/Decision/Allowed/Fireman.ped`
+- `data-lite/files/data/Decision/Allowed/GangMbr.ped`
+- `data-lite/files/data/Decision/Allowed/Indoors.ped`
+- `data-lite/files/data/Decision/Allowed/MISSION.grp`
+- `data-lite/files/data/Decision/Allowed/RANDOM.grp`
+- `data-lite/files/data/Decision/Allowed/RANDOM.ped`
+- `data-lite/files/data/Decision/Allowed/RANDOM2.grp`
+- `data-lite/files/data/Decision/Allowed/R_Norm.ped`
+- `data-lite/files/data/Decision/Allowed/R_Tough.ped`
+- `data-lite/files/data/Decision/Allowed/R_Weak.ped`
+- `data-lite/files/data/Decision/Allowed/m_empty.ped`
+- `data-lite/files/data/Decision/Allowed/m_norm.ped`
+- `data-lite/files/data/Decision/Allowed/m_plyr.ped`
+- `data-lite/files/data/Decision/Allowed/m_steal.ped`
+- `data-lite/files/data/Decision/Allowed/m_tough.ped`
+- `data-lite/files/data/Decision/Allowed/m_weak.ped`
+- `data-lite/files/data/Decision/PedEvent.txt`
+- `data-lite/files/data/ShopUVs.dat`
+- `data-lite/files/data/TouchDefaultPhone3x2.cfg`
+- `data-lite/files/data/TouchDefaultPhoneWidescreen.cfg`
+- `data-lite/files/data/TouchDefaultTablet4x3.cfg`
+- `data-lite/files/data/TouchDefaultTabletWidescreen.cfg`
+- `data-lite/files/data/animgrp.dat`
+- `data-lite/files/data/ar_stats.dat`
+- `data-lite/files/data/carcols.dat`
+- `data-lite/files/data/cargrp.dat`
+- `data-lite/files/data/carmods.dat`
+- `data-lite/files/data/clothes.dat`
+- `data-lite/files/data/colorcycle.dat`
+- `data-lite/files/data/default.dat`
+- `data-lite/files/data/default.ide`
+- `data-lite/files/data/fixLagRockstarMobile.dat`
+- `data-lite/files/data/fonts.dat`
+- `data-lite/files/data/furnitur.dat`
+- `data-lite/files/data/gridref.dat`
+- `data-lite/files/data/gta.dat`
+- `data-lite/files/data/handling.cfg`
+- `data-lite/files/data/hud_controls/`
+- `data-lite/files/data/hud_controls/analog_invisible.png`
+- `data-lite/files/data/hud_controls/enter_vehicle.png`
+- `data-lite/files/data/hud_controls/punch_fist.png`
+- `data-lite/files/data/hud_controls/run_arrow_character.png`
+- `data-lite/files/data/hud_controls/voip_microphone.png`
+- `data-lite/files/data/info.zon`
+- `data-lite/files/data/map.zon`
+- `data-lite/files/data/maps/`
+- `data-lite/files/data/maps/Audiozon.ipl`
+- `data-lite/files/data/maps/LA/`
+- `data-lite/files/data/maps/LA/LAe.ide`
+- `data-lite/files/data/maps/LA/LAe.ipl`
+- `data-lite/files/data/maps/LA/LAe2.ide`
+- `data-lite/files/data/maps/LA/LAe2.ipl`
+- `data-lite/files/data/maps/LA/LAhills.ide`
+- `data-lite/files/data/maps/LA/LAhills.ipl`
+- `data-lite/files/data/maps/LA/LAn.ide`
+- `data-lite/files/data/maps/LA/LAn.ipl`
+- `data-lite/files/data/maps/LA/LAn2.ide`
+- `data-lite/files/data/maps/LA/LAn2.ipl`
+- `data-lite/files/data/maps/LA/LAs.ide`
+- `data-lite/files/data/maps/LA/LAs.ipl`
+- `data-lite/files/data/maps/LA/LAs2.ide`
+- `data-lite/files/data/maps/LA/LAs2.ipl`
+- `data-lite/files/data/maps/LA/LAw.ide`
+- `data-lite/files/data/maps/LA/LAw.ipl`
+- `data-lite/files/data/maps/LA/LAw2.ide`
+- `data-lite/files/data/maps/LA/LAw2.ipl`
+- `data-lite/files/data/maps/LA/LAxref.ide`
+- `data-lite/files/data/maps/LA/LaWn.ide`
+- `data-lite/files/data/maps/LA/LaWn.ipl`
+- `data-lite/files/data/maps/SF/`
+- `data-lite/files/data/maps/SF/SFSe.ide`
+- `data-lite/files/data/maps/SF/SFSe.ipl`
+- `data-lite/files/data/maps/SF/SFe.ide`
+- `data-lite/files/data/maps/SF/SFe.ipl`
+- `data-lite/files/data/maps/SF/SFn.ide`
+- `data-lite/files/data/maps/SF/SFn.ipl`
+- `data-lite/files/data/maps/SF/SFs.ide`
+- `data-lite/files/data/maps/SF/SFs.ipl`
+- `data-lite/files/data/maps/SF/SFw.ide`
+- `data-lite/files/data/maps/SF/SFw.ipl`
+- `data-lite/files/data/maps/SF/SFxref.ide`
+- `data-lite/files/data/maps/country/`
+- `data-lite/files/data/maps/country/countn2.ide`
+- `data-lite/files/data/maps/country/countn2.ipl`
+- `data-lite/files/data/maps/country/countryN.ide`
+- `data-lite/files/data/maps/country/countryN.ipl`
+- `data-lite/files/data/maps/country/countryS.ide`
+- `data-lite/files/data/maps/country/countryS.ipl`
+- `data-lite/files/data/maps/country/countryW.ide`
+- `data-lite/files/data/maps/country/countrye.ide`
+- `data-lite/files/data/maps/country/countrye.ipl`
+- `data-lite/files/data/maps/country/countryw.ipl`
+- `data-lite/files/data/maps/country/counxref.ide`
+- `data-lite/files/data/maps/cull.ipl`
+- `data-lite/files/data/maps/generic/`
+- `data-lite/files/data/maps/generic/barriers.ide`
+- `data-lite/files/data/maps/generic/dynamic.ide`
+- `data-lite/files/data/maps/generic/dynamic2.ide`
+- `data-lite/files/data/maps/generic/multiobj.ide`
+- `data-lite/files/data/maps/generic/procobj.ide`
+- `data-lite/files/data/maps/generic/vegepart.ide`
+- `data-lite/files/data/maps/interior/`
+- `data-lite/files/data/maps/interior/gen_int1.ide`
+- `data-lite/files/data/maps/interior/gen_int1.ipl`
+- `data-lite/files/data/maps/interior/gen_int2.ide`
+- `data-lite/files/data/maps/interior/gen_int2.ipl`
+- `data-lite/files/data/maps/interior/gen_int3.ide`
+- `data-lite/files/data/maps/interior/gen_int3.ipl`
+- `data-lite/files/data/maps/interior/gen_int4.ide`
+- `data-lite/files/data/maps/interior/gen_int4.ipl`
+- `data-lite/files/data/maps/interior/gen_int5.ide`
+- `data-lite/files/data/maps/interior/gen_int5.ipl`
+- `data-lite/files/data/maps/interior/gen_intb.ide`
+- `data-lite/files/data/maps/interior/gen_intb.ipl`
+- `data-lite/files/data/maps/interior/int_LA.ide`
+- `data-lite/files/data/maps/interior/int_LA.ipl`
+- `data-lite/files/data/maps/interior/int_SF.ide`
+- `data-lite/files/data/maps/interior/int_SF.ipl`
+- `data-lite/files/data/maps/interior/int_cont.ide`
+- `data-lite/files/data/maps/interior/int_cont.ipl`
+- `data-lite/files/data/maps/interior/int_veg.ide`
+- `data-lite/files/data/maps/interior/int_veg.ipl`
+- `data-lite/files/data/maps/interior/propext.ide`
+- `data-lite/files/data/maps/interior/props.ide`
+- `data-lite/files/data/maps/interior/props2.ide`
+- `data-lite/files/data/maps/interior/savehous.ide`
+- `data-lite/files/data/maps/interior/savehous.ipl`
+- `data-lite/files/data/maps/interior/stadint.ide`
+- `data-lite/files/data/maps/interior/stadint.ipl`
+- `data-lite/files/data/maps/leveldes/`
+- `data-lite/files/data/maps/leveldes/leveldes.ide`
+- `data-lite/files/data/maps/leveldes/leveldes.ipl`
+- `data-lite/files/data/maps/leveldes/levelmap.ide`
+- `data-lite/files/data/maps/leveldes/levelmap.ipl`
+- `data-lite/files/data/maps/leveldes/levelxre.ide`
+- `data-lite/files/data/maps/leveldes/seabed.ide`
+- `data-lite/files/data/maps/leveldes/seabed.ipl`
+- `data-lite/files/data/maps/occlu.ipl`
+- `data-lite/files/data/maps/occluLA.ipl`
+- `data-lite/files/data/maps/occluint.ipl`
+- `data-lite/files/data/maps/occlusf.ipl`
+- `data-lite/files/data/maps/occluveg.ipl`
+- `data-lite/files/data/maps/paths.ipl`
+- `data-lite/files/data/maps/paths2.ipl`
+- `data-lite/files/data/maps/paths3.ipl`
+- `data-lite/files/data/maps/paths4.ipl`
+- `data-lite/files/data/maps/paths5.ipl`
+- `data-lite/files/data/maps/tunnels.ipl`
+- `data-lite/files/data/maps/vegas/`
+- `data-lite/files/data/maps/vegas/VegasN.ide`
+- `data-lite/files/data/maps/vegas/VegasS.ide`
+- `data-lite/files/data/maps/vegas/VegasW.ide`
+- `data-lite/files/data/maps/vegas/vegasE.ide`
+- `data-lite/files/data/maps/vegas/vegasE.ipl`
+- `data-lite/files/data/maps/vegas/vegasN.ipl`
+- `data-lite/files/data/maps/vegas/vegasS.ipl`
+- `data-lite/files/data/maps/vegas/vegasW.ipl`
+- `data-lite/files/data/maps/vegas/vegaxref.ide`
+- `data-lite/files/data/maps/vegas/vegaxref.ipl`
+- `data-lite/files/data/maps/veh_mods/`
+- `data-lite/files/data/maps/veh_mods/veh_mods.ide`
+- `data-lite/files/data/melee.dat`
+- `data-lite/files/data/object.dat`
+- `data-lite/files/data/paths/`
+- `data-lite/files/data/paths/ROADBLOX.DAT`
+- `data-lite/files/data/paths/carrec.img`
+- `data-lite/files/data/paths/tracks.dat`
+- `data-lite/files/data/paths/tracks2.dat`
+- `data-lite/files/data/paths/tracks3.dat`
+- `data-lite/files/data/paths/tracks4.dat`
+- `data-lite/files/data/ped.dat`
+- `data-lite/files/data/pedgrp.dat`
+- `data-lite/files/data/peds.ide`
+- `data-lite/files/data/pedstats.dat`
+- `data-lite/files/data/plants.dat`
+- `data-lite/files/data/popcycle.dat`
+- `data-lite/files/data/procobj.dat`
+- `data-lite/files/data/script/`
+- `data-lite/files/data/script/mainV1.scm`
+- `data-lite/files/data/script/scriptv1.img`
+- `data-lite/files/data/shopping.dat`
+- `data-lite/files/data/statdisp.dat`
+- `data-lite/files/data/surface.dat`
+- `data-lite/files/data/surfaud.dat`
+- `data-lite/files/data/surfinfo.dat`
+- `data-lite/files/data/timecyc.dat`
+- `data-lite/files/data/txdcut.ide`
+- `data-lite/files/data/vehicles.ide`
+- `data-lite/files/data/water.dat`
+- `data-lite/files/data/water1.dat`
+- `data-lite/files/data/weapon.dat`
+- `data-lite/files/fonts/`
+- `data-lite/files/fonts/arial_bold.ttf`
+- `data-lite/files/fonts/arial_bold_thai.ttf`
+- `data-lite/files/fonts/gtaweap3.ttf`
+- `data-lite/files/gta_sa.set`
+- `data-lite/files/gtasatelem.set`
+- `data-lite/files/models/`
+- `data-lite/files/models/MINFO.BIN`
+- `data-lite/files/models/coll/`
+- `data-lite/files/models/coll/peds.col`
+- `data-lite/files/models/coll/vehicles.col`
+- `data-lite/files/models/coll/weapons.col`
+- `data-lite/files/models/effects.fxp`
+- `data-lite/files/playvicio.txt`
+- `data-lite/files/stream.ini`
+- `data-lite/files/texdb/`
+- `data-lite/files/texdb/Optimize_Fps.img`
+- `data-lite/files/texdb/Optimize_Lag.img`
+- `data-lite/files/texdb/SAMPCOL.img`
+- `data-lite/files/texdb/cutscene.img`
+- `data-lite/files/texdb/cutscene/`
+- `data-lite/files/texdb/cutscene/cutscene.dxt.dat`
+- `data-lite/files/texdb/cutscene/cutscene.dxt.tmb`
+- `data-lite/files/texdb/cutscene/cutscene.dxt.toc`
+- `data-lite/files/texdb/cutscene/cutscene.etc.dat`
+- `data-lite/files/texdb/cutscene/cutscene.etc.tmb`
+- `data-lite/files/texdb/cutscene/cutscene.etc.toc`
+- `data-lite/files/texdb/cutscene/cutscene.pvr.dat`
+- `data-lite/files/texdb/cutscene/cutscene.pvr.tmb`
+- `data-lite/files/texdb/cutscene/cutscene.pvr.toc`
+- `data-lite/files/texdb/cutscene/cutscene.txt`
+- `data-lite/files/texdb/cutscene/cutscene.unc.tmb`
+- `data-lite/files/texdb/gta3.img`
+- `data-lite/files/texdb/gta3/`
+- `data-lite/files/texdb/gta3/gta3.dxt.dat`
+- `data-lite/files/texdb/gta3/gta3.dxt.tmb`
+- `data-lite/files/texdb/gta3/gta3.dxt.toc`
+- `data-lite/files/texdb/gta3/gta3.etc.dat`
+- `data-lite/files/texdb/gta3/gta3.etc.tmb`
+- `data-lite/files/texdb/gta3/gta3.etc.toc`
+- `data-lite/files/texdb/gta3/gta3.pvr.dat`
+- `data-lite/files/texdb/gta3/gta3.pvr.tmb`
+- `data-lite/files/texdb/gta3/gta3.pvr.toc`
+- `data-lite/files/texdb/gta3/gta3.txt`
+- `data-lite/files/texdb/gta3/gta3.unc.tmb`
+- `data-lite/files/texdb/gta_int.img`
+- `data-lite/files/texdb/gta_int/`
+- `data-lite/files/texdb/gta_int/gta_int.dxt.dat`
+- `data-lite/files/texdb/gta_int/gta_int.dxt.tmb`
+- `data-lite/files/texdb/gta_int/gta_int.dxt.toc`
+- `data-lite/files/texdb/gta_int/gta_int.etc.dat`
+- `data-lite/files/texdb/gta_int/gta_int.etc.tmb`
+- `data-lite/files/texdb/gta_int/gta_int.etc.toc`
+- `data-lite/files/texdb/gta_int/gta_int.pvr.dat`
+- `data-lite/files/texdb/gta_int/gta_int.pvr.tmb`
+- `data-lite/files/texdb/gta_int/gta_int.pvr.toc`
+- `data-lite/files/texdb/gta_int/gta_int.txt`
+- `data-lite/files/texdb/gta_int/gta_int.unc.tmb`
+- `data-lite/files/texdb/menu/`
+- `data-lite/files/texdb/menu/menu.dxt.dat`
+- `data-lite/files/texdb/menu/menu.dxt.tmb`
+- `data-lite/files/texdb/menu/menu.dxt.toc`
+- `data-lite/files/texdb/menu/menu.etc.dat`
+- `data-lite/files/texdb/menu/menu.etc.tmb`
+- `data-lite/files/texdb/menu/menu.etc.toc`
+- `data-lite/files/texdb/menu/menu.pvr.dat`
+- `data-lite/files/texdb/menu/menu.pvr.tmb`
+- `data-lite/files/texdb/menu/menu.pvr.toc`
+- `data-lite/files/texdb/menu/menu.txt`
+- `data-lite/files/texdb/menu/menu.unc.tmb`
+- `data-lite/files/texdb/mobile/`
+- `data-lite/files/texdb/mobile/mobile.dxt.dat`
+- `data-lite/files/texdb/mobile/mobile.dxt.tmb`
+- `data-lite/files/texdb/mobile/mobile.dxt.toc`
+- `data-lite/files/texdb/mobile/mobile.etc.dat`
+- `data-lite/files/texdb/mobile/mobile.etc.tmb`
+- `data-lite/files/texdb/mobile/mobile.etc.toc`
+- `data-lite/files/texdb/mobile/mobile.pvr.dat`
+- `data-lite/files/texdb/mobile/mobile.pvr.tmb`
+- `data-lite/files/texdb/mobile/mobile.pvr.toc`
+- `data-lite/files/texdb/mobile/mobile.txt`
+- `data-lite/files/texdb/mobile/mobile.unc.tmb`
+- `data-lite/files/texdb/patch_medium.img`
+- `data-lite/files/texdb/player.img`
+- `data-lite/files/texdb/player/`
+- `data-lite/files/texdb/player/player.pvr.dat`
+- `data-lite/files/texdb/player/player.pvr.tmb`
+- `data-lite/files/texdb/player/player.pvr.toc`
+- `data-lite/files/texdb/player/player.txt`
+- `data-lite/files/texdb/playerhi/`
+- `data-lite/files/texdb/playerhi/playerhi.pvr.dat`
+- `data-lite/files/texdb/playerhi/playerhi.pvr.tmb`
+- `data-lite/files/texdb/playerhi/playerhi.pvr.toc`
+- `data-lite/files/texdb/playerhi/playerhi.txt`
+- `data-lite/files/texdb/samp.img`
+- `data-lite/files/texdb/samp/`
+- `data-lite/files/texdb/samp/samp.dxt.dat`
+- `data-lite/files/texdb/samp/samp.dxt.tmb`
+- `data-lite/files/texdb/samp/samp.dxt.toc`
+- `data-lite/files/texdb/samp/samp.etc.dat`
+- `data-lite/files/texdb/samp/samp.etc.tmb`
+- `data-lite/files/texdb/samp/samp.etc.toc`
+- `data-lite/files/texdb/samp/samp.pvr.dat`
+- `data-lite/files/texdb/samp/samp.pvr.tmb`
+- `data-lite/files/texdb/samp/samp.pvr.toc`
+- `data-lite/files/texdb/samp/samp.txt`
+- `data-lite/files/texdb/samp/samp.unc.dat`
+- `data-lite/files/texdb/samp/samp.unc.tmb`
+- `data-lite/files/texdb/samp/samp.unc.toc`
+- `data-lite/files/texdb/txd/`
+- `data-lite/files/texdb/txd/txd.360.dat`
+- `data-lite/files/texdb/txd/txd.360.tmb`
+- `data-lite/files/texdb/txd/txd.360.toc`
+- `data-lite/files/texdb/txd/txd.dxt.dat`
+- `data-lite/files/texdb/txd/txd.dxt.tmb`
+- `data-lite/files/texdb/txd/txd.dxt.toc`
+- `data-lite/files/texdb/txd/txd.etc.dat`
+- `data-lite/files/texdb/txd/txd.etc.tmb`
+- `data-lite/files/texdb/txd/txd.etc.toc`
+- `data-lite/files/texdb/txd/txd.pvr.dat`
+- `data-lite/files/texdb/txd/txd.pvr.tmb`
+- `data-lite/files/texdb/txd/txd.pvr.toc`
+- `data-lite/files/texdb/txd/txd.txt`
+- `data-lite/files/texdb/txd/txd.unc.tmb`
+- `data-lite/files/texdb/vicio/`
+- `data-lite/files/texdb/vicio/vicio.dxt.dat`
+- `data-lite/files/texdb/vicio/vicio.dxt.tmb`
+- `data-lite/files/texdb/vicio/vicio.dxt.toc`
+- `data-lite/files/texdb/vicio/vicio.etc.dat`
+- `data-lite/files/texdb/vicio/vicio.etc.tmb`
+- `data-lite/files/texdb/vicio/vicio.etc.toc`
+- `data-lite/files/texdb/vicio/vicio.pvr.dat`
+- `data-lite/files/texdb/vicio/vicio.pvr.tmb`
+- `data-lite/files/texdb/vicio/vicio.pvr.toc`
+- `data-lite/files/texdb/vicio/vicio.txt`
+- `data-lite/files/vehicleAudioSettings.cfg`
+
