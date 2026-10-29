@@ -6,20 +6,20 @@
       "id": "lite",
       "label": "Data Lite",
       "client_config_urls": [
-        "https://raw.githubusercontent.com/deividga84/VISAO-SP/main/launcher-api/client_config-lite.json"
+        "https://raw.githubusercontent.com/deividga84/Visao-SP-2.0-Cache/main/launcher-api/client_config-lite.json"
       ],
       "fallback_file_base_urls": [
-        "https://media.githubusercontent.com/media/deividga84/VISAO-SP/main/data-lite/files"
+        "https://media.githubusercontent.com/media/deividga84/Visao-SP-2.0-Cache/main/data-lite/files"
       ]
     },
     {
       "id": "full",
       "label": "Data Full",
       "client_config_urls": [
-        "https://raw.githubusercontent.com/deividga84/VISAO-SP/main/launcher-api/client_config-full.json"
+        "https://raw.githubusercontent.com/deividga84/Visao-SP-2.0-Cache/main/launcher-api/client_config-full.json"
       ],
       "fallback_file_base_urls": [
-        "https://media.githubusercontent.com/media/deividga84/VISAO-SP/main/data-full/files"
+        "https://media.githubusercontent.com/media/deividga84/Visao-SP-2.0-Cache/main/data-full/files"
       ]
     }
   ]

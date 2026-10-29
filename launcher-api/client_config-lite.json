@@ -1,7 +1,7 @@
 {
   "client_config": {
-    "version_code": 3,
+    "version_code": 4,
     "url_launcher": "",
-    "url_cache_files": "https://raw.githubusercontent.com/deividga84/VISAO-SP/main/launcher-api/files-lite.json"
+    "url_cache_files": "https://raw.githubusercontent.com/deividga84/Visao-SP-2.0-Cache/main/launcher-api/files-lite.json"
   }
 }
